@@ -1,86 +1,110 @@
 # Pyramid Generator
 
-A simple web-based pyramid generator built with vanilla JavaScript. Users can define the pyramid height, choose the character used to build the pyramid, and optionally select the direction (standard or inverted). The output is displayed in a clean, styled interface.
+A simple, web-based pyramid generator built with vanilla JavaScript. Users can set the pyramid height, choose the character, and optionally invert the pyramid. Clean UI, no dependencies.
 
-## Features
+## ✨ Features
 
-- Set custom pyramid height
-- Customize the pyramid character (default: `*`)
-- Optionally choose pyramid direction (upright or inverted)
-- Clean UI, responsive design
-- Pure HTML, CSS, and JavaScript — no dependencies
+- Set custom pyramid height  
+- Choose any character (default: `*`)  
+- Toggle between upright and inverted pyramids  
+- Responsive, minimal UI  
+- Built with pure HTML, CSS, and JavaScript — no frameworks or libraries
 
-## Getting Started
+## 🚀 Getting Started
 
-### 1. Clone or download the repo
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pyramid-generator.git
+git clone https://github.com/belaid-dali/pyramid-generator.git
 cd pyramid-generator
+```
 
+### 2. Install Dependencies
 
-### 2.Install Dependencies
-Make sure you have Node.js installed. Then run:
+Make sure Node.js is installed, then:
 
 ```bash
 npm install
+```
 
 ### 3. Run the Development Server
-This will open the project in your browser with hot-reloading:
 
 ```bash
 npm run start
+```
 
 ### 4. Build for Production
-To compile the final static files into the dist/ folder:
 
 ```bash
 npm run build
+```
 
-You can then deploy the dist/ folder anywhere (GitHub Pages, Netlify, Vercel, etc).
+Output will be in the `dist/` directory, ready for deployment.
 
-📂 Project Structure
+## 📁 Project Structure
 
+```
 pyramid-generator/
 ├── index.html        # Main HTML file
 ├── styles.css        # Styling
-├── script.js         # Pyramid generation logic
+├── script.js         # Pyramid logic
 ├── package.json      # Project metadata and scripts
-└── README.md         # You’re here
+└── README.md         # Documentation
+```
 
-📸 Example Output
-Input:
+## 📸 Example Output
 
-=> Height: 5
+**Input:**
 
-Output:
+```
+Height: 5
+```
+
+**Output:**
+
+```
     *    
    ***   
   *****  
  ******* 
 *********
+```
 
+## 👤 Author
 
-👨‍💻 Author
+**Belaid Dali Omar**  
+Full-stack Developer | MSc Embedded Systems  
+GitHub: [@belaid-dali](https://github.com/belaid-dali)
 
-Belaid Dali Omar
-Full-stack Developer | MSc Embedded Systems
-GitHub: @belaid-dali
+## 🤝 Contributing
 
+Contributions welcome!
 
-🤝 Contributing
-Contributions are welcome and appreciated!
+1. Fork the repo  
+2. Create a branch:
 
-If you’re a beginner, feel free to fork this project and play with it. If you want to contribute a feature or fix:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
 
-1. Fork the repo
-2. Create your branch (git checkout -b feature/YourFeature)
-3. Commit your changes (git commit -m 'Add your feature')
-4. Push to your branch (git push origin feature/YourFeature)
-5. Open a Pull Request
+3. Commit your changes:
 
-For major changes or ideas, open an issue first to discuss what you'd like to change.
+   ```bash
+   git commit -m "Add your feature"
+   ```
 
-📄 License
-ISC — Free to use, modify, and distribute.
+4. Push and open a Pull Request:
 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+
+For major changes, open an issue first to discuss your idea.
+
+## 📄 License
+
+This project is licensed under the **ISC License**.
+
+## 🌐 Live Demo
+
+[View it here](https://belaid-dali.github.io/pyramid-generator/)
