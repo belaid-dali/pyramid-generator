@@ -1,5 +1,5 @@
 body {
-  background-color: #87adbe;
+  background-color: #20818e;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
@@ -20,21 +20,36 @@ body {
   left: 0;
 }
 
-.container {
+.glass-card {
+  -webkit-backdrop-filter: blur(10px);
+  color: #fff;
   text-align: center;
-  background: #fff;
-  border-radius: 8px;
-  width: 300px;
+  background: #ffffff1a;
+  border: 1px solid #fff3;
+  border-radius: 1rem;
+  max-width: 400px;
+  margin: 5rem auto;
   padding: 2rem;
-  box-shadow: 0 2px 8px #0000001a;
+  position: relative;
+  box-shadow: 0 8px 32px #0003;
 }
 
 input, button {
   box-sizing: border-box;
+  color: #fff;
+  -webkit-backdrop-filter: blur(5px);
+  background: #fff3;
+  border: none;
+  border-radius: .5rem;
   width: 100%;
   margin-top: 1rem;
-  padding: .5rem;
+  padding: .75rem;
   font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ffffff4d;
 }
 
 pre {
