@@ -28,10 +28,11 @@ input, button {
 
 pre {
     margin-top: 1.5rem;
-    text-align: left;
+    text-align: center;
     background: #eee;
     padding: 1rem;
     white-space: pre-wrap;
     word-break: break-word;
+    font-family: monospace;
 }
 
